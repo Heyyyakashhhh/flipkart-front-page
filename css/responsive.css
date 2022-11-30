@@ -1,0 +1,62 @@
+@media screen and (max-width:960px) {
+    header{
+        font-size: 0.95rem;
+    }
+    .logo img{
+       width: 80px;
+       margin: 20px 5px;
+    }
+    nav{
+      display: flex;
+      flex-direction: column;
+    }
+    nav ul{
+        height:180px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav ul li button{
+        width: 20px;
+        height: 20px;
+    }
+    .search{
+      padding: 0px 10px;
+      width: 2px;
+    }
+    .placeholder{
+        margin: 1px 1px 1px 1px;
+    }
+  
+   .container1{
+    flex-wrap: wrap;
+    overflow: hidden;
+   }
+    .image{
+    height: 30%;
+    width: 22%;
+  } 
+  .container1 a{
+    font-size: 0.34remm;
+
+  }
+  .slider img{
+  height: 40%;
+
+  }
+  .slider{
+    margin: auto;
+   height: 40%;
+    margin: 7px auto;
+  }
+  .container2{
+    height: 40%;
+  }
+  .card{
+    font-size: 0.44rem;
+  }
+  .card-item{
+    display: flex;
+    flex-wrap: wrap;
+  }
+    
+}
